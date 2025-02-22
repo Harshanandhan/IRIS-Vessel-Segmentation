@@ -1,0 +1,29 @@
+Here’s a list of relevant datasets with links:
+
+(1).CASIA-IrisV4 (Interval, Distance, etc.)  
+Description: A popular dataset from the Chinese Academy of Sciences, widely used for iris recognition and segmentation. The "Interval" subset includes high-quality near-infrared (NIR) images with clear iris boundaries, while "Distance" offers more challenging conditions.
+Relevance: Your project uses .tif images and .gif masks, which could align with CASIA’s format. It’s commonly used in U-Net-based segmentation tasks.
+Link: http://biometrics.idealtest.org/dbDetailForUser.do?id=4
+(Requires registration with the Institute of Automation, Chinese Academy of Sciences)
+
+(2).UBIRIS.v2 (Noisy Iris Challenge Evaluation - NICE-II)  
+Description: Contains noisy iris images captured in visible light under unconstrained conditions, ideal for testing robustness in segmentation. NICE-II is a subset used for challenges like iris segmentation.
+Relevance: Your project might involve visible light data, and UBIRIS.v2 is a standard for such scenarios. The .tif format matches your training data.
+Link: http://iris.di.ubi.pt/ubiris2.html
+(Contact the University of Beira Interior for access)
+
+(3).IIT Delhi Iris Dataset (IITD)  
+Description: A dataset of NIR iris images captured with controlled conditions, often used for biometric research, including segmentation.
+Relevance: Could be a source for your clean training data, especially if focusing on high-quality iris images.
+Link: IITD Iris Database
+
+(4).MICHE-I (Mobile Iris Challenge Evaluation)  
+Description: Iris images captured using mobile devices in visible light, offering diverse conditions like occlusions and lighting variations.
+Relevance: If your project includes mobile-captured data, this could fit. It’s used in segmentation studies and aligns with biometric security goals.
+Link: https://iplab.dmi.unict.it/staff-members/michele-mazzamuto/
+
+(5).ND-IRIS-0405  
+Description: A dataset from Notre Dame University with NIR iris images, often used for segmentation and recognition benchmarking.
+Relevance: Known for detailed annotations, it could match your 1st_manual directory structure.
+Link: ND-IRIS-0405
+(Requires registration with the University of Notre Dame)
